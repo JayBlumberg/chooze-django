@@ -36,6 +36,8 @@ urlpatterns = patterns('',
         name='logout'),
                        
     url(r'^time/$', 'app.views.current_datetime', name='time'),
+    url(r'^marc/$', 'app.views.marc', name='marc'),
+    url(r'^jay/$', 'app.views.jay', name='jay'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
