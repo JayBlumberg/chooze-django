@@ -63,8 +63,8 @@ def current_datetime(request):
 
 def marc(request):
     now = datetime.now()
-    import marc1
-    now = marc1.function1(1)
+    import marc2
+    now = marc2.function1(1)
     html = "<html><body>%s</body></html>" % now
     return HttpResponse(html)
 
