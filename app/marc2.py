@@ -4,5 +4,5 @@ def function1(var1):
     a = "hello"
     b = "world"
     
-    result = a & " " & world
+    result = a + " " + world
     return result
