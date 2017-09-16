@@ -62,14 +62,12 @@ def current_datetime(request):
     return HttpResponse(html)
 
 def marc(request):
-    now = datetime.now()
     import marc2
     now = marc2.function1(1)
     html = "<html><body>%s</body></html>" % now
     return HttpResponse(html)
 
 def jay(request):
-    now = datetime.now()
     import jay1
     now = jay1.function1(1)
     html = "<html><body>%s</body></html>" % now
