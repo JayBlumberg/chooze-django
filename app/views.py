@@ -8,9 +8,6 @@ from django.template import RequestContext
 from datetime import datetime
 
 from django.http import HttpResponse
-import datetime
-
-
 
 def home(request):
     """Renders the home page."""
