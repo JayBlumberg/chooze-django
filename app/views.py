@@ -60,3 +60,10 @@ def current_datetime(request):
     now = marc2.function1(1)
     html = "<html><body>It is now %s.</body></html>" % now
     return HttpResponse(html)
+
+def jay(request):
+    now = datetime.now()
+    import jay1
+     now = marc1.function1(1)
+    html = "<html><body>%s</body></html>" % now
+    return HttpResponse(html)
