@@ -34,6 +34,8 @@ urlpatterns = patterns('',
             'next_page': '/',
         },
         name='logout'),
+                       
+    url(r'^time/$', current_datetime),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
