@@ -51,6 +51,6 @@ def about(request):
     )
 
 def current_datetime(request):
-    now = datetime.datetime.now()
+    now = datetime.now()
     html = "<html><body><It is now %s.</body></html>" % now
     return HttpResonse(html)
