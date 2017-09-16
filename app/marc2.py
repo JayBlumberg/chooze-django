@@ -1,8 +1,8 @@
-def function1(var1): 
-    
+def function1(var1):   
     #insert python code here to code response
-    a = "hello2the"
+    a = "hello 2 the new"
     b = "world"
-    result = a + " " + b
+    c = var1
+    result = a + " " + b + c
         
     return result
