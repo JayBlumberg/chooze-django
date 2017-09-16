@@ -54,5 +54,7 @@ def about(request):
 
 def current_datetime(request):
     now = datetime.now()
+    import marc1
+    now = fibo.fib(1000)
     html = "<html><body>It is now %s.</body></html>" % now
     return HttpResponse(html)
