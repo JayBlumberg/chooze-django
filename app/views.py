@@ -64,6 +64,6 @@ def current_datetime(request):
 def jay(request):
     now = datetime.now()
     import jay1
-     now = marc1.function1(1)
+     now = jay1.function1(1)
     html = "<html><body>%s</body></html>" % now
     return HttpResponse(html)
