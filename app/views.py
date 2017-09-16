@@ -57,6 +57,6 @@ def current_datetime(request):
     import marc1
     import marc2
     now = marc1.fib2(1000) 
-    now = marc2.function1(x)
+    now = marc2.function1(1)
     html = "<html><body>It is now %s.</body></html>" % now
     return HttpResponse(html)
